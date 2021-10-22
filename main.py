@@ -55,9 +55,9 @@ def main():
         )
         if video:
            if video != id :
-               response = request.execute()
-               youtube.videos().rate(rating='like', id=video).execute()
-               print("http://youtube.com/watch?v={0}".format(video))
+               response = request.execute() # Send comment
+               youtube.videos().rate(rating='like', id=video).execute() # Auto like your video
+               print("http://youtube.com/watch?v={0}".format(video)) # show video link in console
         with open('comment', 'wb') as f:
            pickle.dump(video, f)  
       except:
