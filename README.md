@@ -1,6 +1,8 @@
 # youtube-autocomment
 
-Commenter automatiquement vos vidéos youtube
+Script Python pour commenter automatiquement vos vidéos youtube
+
+Python script to automatically comment your youtube videos
 
 Kick : https://www.kick.com/mraurontv     
 Twitch : https://www.twitch.tv/mraurontv    
